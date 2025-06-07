@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uncle Mike's GitHub Repositories</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        .sidebar {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 240px;
+            height: 100%;
+            background: #24292e;
+            color: #fff;
+            padding-top: 40px;
+            box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.3em;
+            letter-spacing: 1px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0 20px;
+        }
+        .sidebar li {
+            margin: 20px 0;
+        }
+        .sidebar a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        .sidebar a:hover {
+            color: #79c0ff;
+            text-decoration: underline;
+        }
+        .main-content {
+            margin-left: 260px;
+            padding: 40px;
+        }
+        @media (max-width: 600px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                box-shadow: none;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>My GitHub Repos</h2>
+        <ul>
+            <li><a href="https://maikuojisan.github.io/Some-Thing-May/" target="_blank">Mustangs!</a></li>
+            <li><a href="https://michaelsleeper.github.io/" target="_blank">Mikey!!</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Welcome!</h1>
+        <p>Select a repository from the sidebar to view it on GitHub.</p>
+    </div>
+</body>
+</html>
